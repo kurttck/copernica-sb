@@ -5,11 +5,12 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "rgb(41 71 66 / .5)", // Color azul, por ejemplo
+          DEFAULT: "rgb(41 71 66)",
           50: "#ebf8ff",
           100: "#bee3f8",
           // Puedes añadir más tonos si lo deseas
         },
+        secondary: "rgb(223 195 164)",
       },
     },
   },

@@ -8,5 +8,8 @@
 }
 
 .prueba {
-  border: 1px solid rgb(223 195 164);
+  padding: 10px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: white;
 }
