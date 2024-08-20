@@ -1,7 +1,11 @@
 import React from "react";
 
 function Locales() {
-  return <h1>Hola Locales</h1>;
+  return (
+    <div className="min-h-screen max-w-screen bg-gray-200">
+      <h1>Hola mundo</h1>
+    </div>
+  );
 }
 
 export default Locales;

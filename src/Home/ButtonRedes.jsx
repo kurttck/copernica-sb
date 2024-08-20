@@ -5,7 +5,8 @@ function ButtonNav({ children, link, viewBox }) {
     <>
       <a
         href={link}
-        className="text white transition duration-200 ease-in-out hover:text-secondary bg-primary p-2.5 text-white rounded-full"
+        className="text-white transition border border-transparent duration-200 ease-in-out hover:text-secondary bg-primary p-2.5 text-white rounded-full
+        hover:border-secondary hover:border hover:bg-transparent"
         target="_blank"
       >
         <svg
