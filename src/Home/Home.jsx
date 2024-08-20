@@ -6,9 +6,9 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div className="min-h-screen max-w-screen bg-cover bg-center container">
+    <div className="min-h-screen max-w-full bg-cover bg-center container">
       <div className="min-h-screen w-screen bg-gradient-to-b from-primary/50 to-emerald-600/30">
-        <div className="flex pt-24 ml-40 mr-40 justify-between">
+        <div className="flex pt-24 ml-40 mr-40 justify-between sm:pt-24">
           <section className="w-[36rem] flex flex-col gap-8">
             <div>
               <span className="text-white pl-4 pr-4 pt-2 pb-2 font-semibold text-sm rounded-2xl bg-[rgb(41,71,66)]">

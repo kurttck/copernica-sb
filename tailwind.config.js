@@ -6,8 +6,6 @@ export default {
       colors: {
         primary: {
           DEFAULT: "rgb(41 71 66)",
-          50: "#ebf8ff",
-          100: "#bee3f8",
           // Puedes añadir más tonos si lo deseas
         },
         secondary: "rgb(223 195 164)",
