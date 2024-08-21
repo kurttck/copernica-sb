@@ -9,6 +9,7 @@ export default {
           // Puedes añadir más tonos si lo deseas
         },
         secondary: "rgb(223 195 164)",
+        light: "rgba(237, 246, 238, 1)",
       },
     },
   },
