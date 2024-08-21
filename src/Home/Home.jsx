@@ -36,7 +36,7 @@ function Home() {
               </p>
             </div>
             <div className="border-t-2 border-secondary"></div>
-            <div className="flex gap-4 items-center pl-4">
+            <div className="flex gap-1.5 items-center md:gap-3">
               <p className="text-gray-200 hidden sm:block">
                 Visita nuestras redes
               </p>
@@ -68,7 +68,7 @@ function Home() {
               </div>
             </div>
           </section>
-          <section className="flex w-full sm:w-auto justify-center items-center pl-5 pr-5 border">
+          <section className="flex w-full sm:w-auto justify-center items-center pl-5 pr-5">
             <div className="flex flex-col sm:items-center gap-6 w-full">
               <ButtonNav
                 nombre="NUESTRA CARTA"
