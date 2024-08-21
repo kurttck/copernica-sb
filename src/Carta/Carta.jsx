@@ -22,7 +22,7 @@ function Carta() {
               </div>
             </div>
           </section>
-          <section className="flex">
+          <section className="flex flex-col lg:flex-row">
             <nav className="w-full p-4 border border-green-800 flex flex-col gap-5 lg:w-1/5 lg:border-0 lg:border-r-2 lg:py-14">
               <div>
                 <h2 className="text-xl font-normal mb-1">Categorías</h2>
