@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {},
       colors: {
         primary: {
           DEFAULT: "rgb(41 71 66)",

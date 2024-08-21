@@ -8,36 +8,38 @@ function Home() {
   return (
     <div className="min-h-screen max-w-full bg-cover bg-center container">
       <div className="min-h-screen w-screen bg-gradient-to-b from-primary/50 to-emerald-600/30">
-        <div className="flex pt-24 ml-40 mr-40 justify-between sm:pt-24">
-          <section className="w-[36rem] flex flex-col gap-8">
+        <div className="mx-auto max-w-7xl pt-16 flex flex-col items-center gap-8 sm:pt-24 lg:flex-row lg:justify-around">
+          <section className="w-full pl-5 pr-5 flex flex-col gap-8 sm:text-center sm:max-w-2xl lg:text-left">
             <div>
               <span className="text-white pl-4 pr-4 pt-2 pb-2 font-semibold text-sm rounded-2xl bg-[rgb(41,71,66)]">
                 Bienvenidos a Copernica
               </span>
             </div>
             <div className="flex flex-col gap-4">
-              <h1 className="text-6xl font-bold text-gray-200 tracking-tight">
+              <h1 className="text-4xl font-bold text-gray-200 tracking-tight sm:text-5xl md:text-6xl">
                 Descubre nuestros
                 <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#fce96a] to-[#f98080]">
                   {" "}
                   Helados{" "}
                 </span>
-                artesanales junto a un
+                artesanales <br /> junto a un
                 <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#723B13] to-[#DFC3A4]">
                   {" "}
                   Café{" "}
                 </span>
                 de calidad
               </h1>
-              <p className="text-gray-200 text-xl leading-7">
+              <p className="text-white text-base leading-7 sm:text-xl lg:text-lg xl:text-xl">
                 Combinamos la calidez de un buen café con la dulzura y frescura
                 de helados artesanales. Descubre cómo estos dos placeres se unen
                 para ofrecerte una experiencia única e inolvidable.
               </p>
             </div>
             <div className="border-t-2 border-secondary"></div>
-            <div className="flex gap-4 items-center">
-              <p className="text-gray-200">Visita nuestras redes</p>
+            <div className="flex gap-4 items-center pl-4">
+              <p className="text-gray-200 hidden sm:block">
+                Visita nuestras redes
+              </p>
               <ButtonRedes
                 link="https://www.facebook.com/copernica.pe"
                 viewBox="0 0 512 512"
@@ -66,8 +68,8 @@ function Home() {
               </div>
             </div>
           </section>
-          <section className="flex justify-center items-center w-[36rem]">
-            <div className="flex flex-col gap-6">
+          <section className="flex w-full sm:w-auto justify-center items-center pl-5 pr-5 border">
+            <div className="flex flex-col sm:items-center gap-6 w-full">
               <ButtonNav
                 nombre="NUESTRA CARTA"
                 destino="/Carta"
