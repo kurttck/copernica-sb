@@ -18,17 +18,17 @@ function Carta() {
                 <h1 className="text-2xl text-right font-medium title-font text-primary sm:text-4xl">
                   Descubre nuestra carta
                 </h1>
-                <div className="h-1 w-32 bg-green-800 rounded"></div>
+                <div className="h-1 w-32 hidden lg:block bg-green-800 rounded"></div>
               </div>
             </div>
           </section>
-          <section className="flex flex-col lg:flex-row">
+          <section className="flex flex-col lg:flex-row gap-4">
             <nav className="w-full p-4 border border-green-800 flex flex-col gap-5 lg:w-1/5 lg:border-0 lg:border-r-2 lg:py-14">
               <div>
                 <h2 className="text-xl font-normal mb-1">Categorías</h2>
                 <div className="h-1 w-24 bg-green-800 rounded"></div>
               </div>
-              <ul className="list-none flex flex-col gap-4">
+              <ul className="list-none flex flex-col gap-3">
                 <li className="text-md hover:text-secondary duration-150 ease-in-out">
                   Desayunos
                 </li>
