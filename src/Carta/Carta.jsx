@@ -6,7 +6,7 @@ function Carta() {
   return (
     <>
       <div className="min-h-screen max-w-screen bg-light bg-opacity-100 flex justify-center md:p-5 lg:pt-10">
-        <div className="containercarta p-5 flex flex-col gap-3 lg:gap-2 max-w-[768px] lg:max-w-[1024px] xl:max-w-full justify-center">
+        <div className="p-5 flex flex-col gap-3 lg:gap-2 max-w-[768px] lg:max-w-[1024px] xl:max-w-full justify-center">
           <section className="flex flex-col lg:flex-row justify-between gap-2">
             <div className="">
               <ButtonVolverHome md="" />
