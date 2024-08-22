@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import ButtonNav from "./ButtonNav";
 import ButtonRedes from "./ButtonRedes";
 import "./Home.css";

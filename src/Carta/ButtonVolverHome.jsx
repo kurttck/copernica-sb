@@ -1,5 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import { PropTypes } from "prop-types";
 
 function ButtonVolverHome({ md }) {
   return (
@@ -30,5 +30,9 @@ function ButtonVolverHome({ md }) {
     </>
   );
 }
+
+ButtonVolverHome.propTypes = {
+  md: PropTypes.string.isRequired,
+};
 
 export default ButtonVolverHome;

@@ -1,5 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import { PropTypes } from "prop-types";
 
 function ButtonNav({ children, destino, nombre, viewBox }) {
   return (
@@ -22,5 +22,13 @@ function ButtonNav({ children, destino, nombre, viewBox }) {
     </Link>
   );
 }
+
+//PARA ASEGURAR QUE TIPO DE DATO DEBE LLEGAR
+ButtonNav.propTypes = {
+  children: PropTypes.children.isRequired,
+  destino: PropTypes.string.isRequired,
+  nombre: PropTypes.string.isRequired,
+  viewBox: PropTypes.string.isRequired,
+};
 
 export default ButtonNav;

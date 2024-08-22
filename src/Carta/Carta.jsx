@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import ButtonVolverHome from "./ButtonVolverHome";
 import ProductCard from "./ProductCard";
 import { products } from "../assets/data";
@@ -8,8 +6,8 @@ function Carta() {
   return (
     <>
       <div className="min-h-screen max-w-screen bg-light bg-opacity-100 flex justify-center md:p-5 lg:pt-10">
-        <div className="containercarta p-5 flex flex-col gap-2 lg:gap-2 max-w-[768px] lg:max-w-[1024px] xl:max-w-full justify-center">
-          <section className="flex flex-col lg:flex-row justify-between">
+        <div className="containercarta p-5 flex flex-col gap-3 lg:gap-2 max-w-[768px] lg:max-w-[1024px] xl:max-w-full justify-center">
+          <section className="flex flex-col lg:flex-row justify-between gap-2">
             <div className="">
               <ButtonVolverHome md="" />
             </div>
@@ -42,7 +40,7 @@ function Carta() {
 
             <div
               id="productos"
-              className="flex flex-col gap-8 w-full md:p-2 lg:p-4 lg:w-4/5"
+              className="flex flex-col gap-6 w-full md:p-2 lg:p-4 lg:w-4/5"
             >
               <div className="bg-primary border-l-8 border-green-950 ps-4 py-2 w-full">
                 <h2 className="text-2xl font-medium title-font text-secondary sm:text-4xl">

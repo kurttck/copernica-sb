@@ -1,4 +1,4 @@
-import React from "react";
+import { PropTypes } from "prop-types";
 
 function ButtonNav({ children, link, viewBox }) {
   return (
@@ -21,5 +21,11 @@ function ButtonNav({ children, link, viewBox }) {
     </>
   );
 }
+
+ButtonNav.propTypes = {
+  children: PropTypes.children.isRequired,
+  link: PropTypes.string.isRequired,
+  viewBox: PropTypes.string.isRequired,
+};
 
 export default ButtonNav;

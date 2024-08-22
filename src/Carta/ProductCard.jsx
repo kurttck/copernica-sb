@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 function ProductCard({ img, description, name }) {
   return (
@@ -23,5 +23,12 @@ function ProductCard({ img, description, name }) {
     </>
   );
 }
+
+//PARA ASEGURAR QUE TIPO DE DATO DEBE LLEGAR
+ProductCard.propTypes = {
+  img: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default ProductCard;
