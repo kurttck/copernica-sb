@@ -25,7 +25,7 @@ function ButtonNav({ children, destino, nombre, viewBox }) {
 
 //PARA ASEGURAR QUE TIPO DE DATO DEBE LLEGAR
 ButtonNav.propTypes = {
-  children: PropTypes.children.isRequired,
+  children: PropTypes.node.isRequired,
   destino: PropTypes.string.isRequired,
   nombre: PropTypes.string.isRequired,
   viewBox: PropTypes.string.isRequired,

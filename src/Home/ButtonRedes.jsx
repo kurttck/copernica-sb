@@ -1,6 +1,6 @@
 import { PropTypes } from "prop-types";
 
-function ButtonNav({ children, link, viewBox }) {
+function ButtonRedes({ children, link, viewBox }) {
   return (
     <>
       <a
@@ -22,10 +22,10 @@ function ButtonNav({ children, link, viewBox }) {
   );
 }
 
-ButtonNav.propTypes = {
-  children: PropTypes.children.isRequired,
+ButtonRedes.propTypes = {
+  children: PropTypes.node.isRequired,
   link: PropTypes.string.isRequired,
   viewBox: PropTypes.string.isRequired,
 };
 
-export default ButtonNav;
+export default ButtonRedes;
